@@ -1,0 +1,240 @@
+
+@media screen and (max-width:767px)  {
+  body {
+    font-size: 12px;
+  }
+
+  header,
+  .wrapper-header {
+    min-height: 500px;
+  } 
+
+  .nav-bar {
+    width: 95%;
+  }
+
+  .nav-bar-item__logo {
+    width: 90px;
+    height: 94px;
+}
+  
+  main {
+    min-height: 3380px;
+  }
+
+  footer {
+    min-height: 200px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+
+  .main-top__logo,
+  .main-top__header,
+  .main-top__text {
+    margin-bottom: 1rem;
+  }
+
+  .main-top__logo {
+    margin-top: 0;
+  }
+
+  .main-top__header {
+    text-align: center;
+  }
+
+    .main-top__text {
+      padding: 0;
+      margin: 0 1.5rem 3rem;
+  }
+
+  .gallery-top,
+  .gallery-middle,
+  .gallery-bottom {
+    max-height: 600px;
+    flex-wrap: wrap;
+}
+
+
+  .gallery-top-right-logo,
+  .gallery-middle-left-logo,
+  .gallery-bottom-center-logo {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+  .gallery-top-right-text,
+  .gallery-middle-left-text,
+  .gallery-bottom-center-text {
+    margin: 0 1.5rem 3rem;
+  }
+
+  .gallery-top-right-text:after,
+  .gallery-middle-left-text:after,
+  .gallery-bottom-center-text:after {
+    bottom: -1rem;
+}
+
+  .twitter-text {
+    margin: 0 2rem 1rem;
+  }
+
+  .bike-parts,
+  .bike-parts-second {
+    height: 140px;
+  }
+
+  .bike-parts-second {
+    min-height: 140px;
+  }
+
+
+  .bike-parts-third-top,
+  .bike-parts-third-bottom {
+    width: 100%;
+    height: 70px;
+  }
+
+  .shop {
+    min-height: 145px;
+  }
+
+  .registration {
+    min-height: 295px;
+  }
+
+  
+
+  .registration-form {
+    margin-bottom: 2rem;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .registration-form-email,
+  .registration-form-go {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 170px;
+
+  }
+
+  .footer-address {
+    padding-left: 0;
+    flex-direction: row;
+  }
+
+  .footer-production {
+    padding-right: 50px;
+  }
+
+}
+
+@media screen and (min-width:768px) and  (max-width:991px)  {
+  body {
+    font-size: 12px;
+  }
+  
+  main {
+    min-height: 3830px;
+  }
+
+  .wrapper {
+    max-width: 750px;
+  }
+  .wrapper-header,
+  header {
+    min-height: 500px;
+  }
+
+  .main-top__logo {
+    margin-top: 3rem;
+  }
+
+  .main-top__text {
+    padding: 0px 6rem;
+  }
+
+  .gallery-top-right-text,
+  .gallery-middle-left-text,
+  .gallery-bottom-center-text {
+    margin: 0 1.5rem 7rem;
+  }
+
+  .twitter-text {
+    margin: 0 6rem 4rem;
+  }
+
+  
+  .registration {
+    min-height: 400px;
+  }
+  
+  .footer-address {
+    padding-left: 60px;
+  }
+
+  .footer-production {
+    padding-right: 60px;
+  }
+
+  .bike-parts,
+  .bike-parts-second {
+    height: 262px;
+  }
+
+  .bike-parts-second {
+    min-height: 262px;
+  }
+
+
+  .bike-parts-third-top,
+  .bike-parts-third-bottom {
+    width: 100%;
+    height: 131px;
+  }
+}
+
+@media screen and (min-width:991px) and (max-width:1199px)  {
+  body {
+    font-size: 14px;
+  }
+  .wrapper {
+    width: 970px;
+  }
+
+  .main-top__logo {
+    margin-top: 3rem;
+  }
+
+  .bike-parts,
+  .bike-parts-second {
+    height: 300px;
+  }
+
+  .bike-parts-second {
+    min-height: 300px;
+  }
+
+
+  .bike-parts-third-top,
+  .bike-parts-third-bottom {
+    width: 100%;
+    height: 150px;
+  }
+
+
+
+}
+  
+
+
+
+ 
+

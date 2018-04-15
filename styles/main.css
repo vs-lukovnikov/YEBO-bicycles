@@ -1,0 +1,500 @@
+.main-top,
+.twitter {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 460px;
+  flex-direction: column;
+}
+
+.main-top__logo {
+  width: 52px;
+  height: 43px;
+  background: url(../img/main-top-logo.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-top__header {
+  line-height: auto;
+}
+
+.main-top__text {
+  line-height: 34px;
+  text-align: center;
+  padding: 0px 19rem;
+}
+
+.main-top__logo,
+.main-top__header,
+.main-top__text {
+  margin-bottom: 3rem;
+}
+
+.gallery-top,
+.gallery-middle,
+.gallery-bottom {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  min-height: 600px;
+}
+
+.gallery-top-left,
+.gallery-middle-right,
+.gallery-bottom-left,
+.gallery-bottom-right {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*gallery-top*/
+
+.gallery-top-left {
+  background: url("../img/bike_2.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.gallery-top-left__inner,
+.gallery-middle-right__inner,
+.gallery-bottom-left__inner {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-top-left__inner {
+  width: 113px;
+  height: 113px;
+  background: url("../img/gallery-top-logo.png");
+}
+
+.gallery-top-right,
+.gallery-middle-left,
+.gallery-bottom-center,
+.registration {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gallery-top-right-logo,
+.gallery-middle-left-logo,
+.gallery-bottom-center-logo {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery-top-right-logo {
+  width: 41px;
+  height: 30px;
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+  background: url("../img/main-top-right-logo.png");
+}
+.gallery-top-right-header {
+  margin-bottom: 1rem;
+}
+
+.gallery-top-right-text {
+  position: relative;
+  margin: 0 3.5rem 7rem;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.gallery-top-right-text:after {
+  position: absolute;
+  bottom: -2.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  content: " ";
+  height: 1px;
+  width: 15%;
+  background: #848789;
+}
+
+.gallery-top-right-image {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  height: auto;
+  background: url("../img/bike_3.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*gallery-middle*/
+
+.gallery-middle-left-logo {
+  width: 32px;
+  height: 32px;
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+  background: url("../img/main-middle-left-logo.png");
+}
+
+.gallery-middle-left-header {
+  margin-bottom: 1rem;
+}
+
+.gallery-middle-left-text {
+  position: relative;
+  margin: 0 3.5rem 7rem;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.gallery-middle-left-text:after {
+  position: absolute;
+  bottom: -2.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  content: " ";
+  height: 1px;
+  width: 15%;
+  background: #848789;
+}
+
+.gallery-middle-left-image {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  height: auto;
+  background: url("../img/bike_5.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.gallery-middle-right {
+  background: url("../img/bike_4.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.gallery-middle-right__inner {
+  width: 177px;
+  height: 152px;
+  background: url("../img/logo_2.png");
+}
+
+/*gallery-bottom*/
+
+.gallery-bottom-left {
+  background: url("../img/bike_7.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.gallery-bottom-left__inner {
+  width: 208px;
+  height: 67px;
+  background: url("../img/logo_3.png");
+}
+
+.gallery-bottom-right {
+  background: url("../img/bike_6.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.gallery-bottom-center-logo {
+  width: 23px;
+  height: 41px;
+  margin-top: 4.5rem;
+  margin-bottom: 2rem;
+  background: url("../img/icon_1.png");
+}
+.gallery-bottom-center-header {
+  margin-bottom: 1rem;
+}
+
+.gallery-bottom-center-text {
+  position: relative;
+  margin: 0 3.5rem 7rem;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.gallery-bottom-center-text:after {
+  position: absolute;
+  bottom: -2.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  content: " ";
+  height: 1px;
+  width: 15%;
+  background: #848789;
+}
+
+.gallery-bottom-center-image {
+  position: relative;
+  width: 100%;
+  min-height: 150px;
+  height: auto;
+  background: url("../img/bike_8.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+/*twitter-block*/
+
+.twitter-logo {
+  margin:3rem 0 1rem;
+  width: 32px;
+  height: 27px;
+  background: url("../img/twitter-logo.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.twitter-header {
+  margin:1rem 0 1rem;
+  line-height: auto;
+  text-transform: capitalize;
+}
+
+.twitter-header > span {
+  margin-left: 1rem;
+  font-family: "Lato-Light";
+  text-transform: none;
+}
+
+.twitter-text {
+  margin: 0 14rem 7rem;
+  font-family: "Lato-Italic";
+  font-size: 1.5rem;
+  line-height: 34px;
+  text-align: center;
+}
+
+.twitter-header {
+  margin-bottom: 1rem;
+}
+
+.twitter-switches {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 6rem;
+  height: 2rem;
+}
+
+.twitter-switches > span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border:2px solid #848789;
+
+}
+
+.twitter-switches > span:hover {
+  background: #848789;
+}
+
+/*bike's parts*/
+
+.bike-parts {
+  height: 540px;
+}
+
+.bike-parts-first,
+.bike-parts-third {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bike-parts-first-top,
+.bike-parts-second,
+.bike-parts-third-bottom {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.bike-parts-first-top,
+.bike-parts-first-bottom {
+  width: 100%;
+  height: 50%;  
+}
+
+
+.bike-parts-second {
+  min-height: 540px;
+}
+
+.bike-parts-third-top,
+.bike-parts-third-bottom {
+  width: 100%;
+  height: 270px;
+}
+
+.bike-parts a {
+  display: block;
+}
+
+.bike-parts a,
+.bike-parts a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.bike-parts-first-top-left,
+.bike-parts-first-top-right,
+.bike-parts-second-left,
+.bike-parts-second-right,
+.bike-parts-third-bottom-left,
+.bike-parts-third-bottom-right {
+  width: 50%;
+}
+
+ 
+/*shop button*/
+
+.shop {
+  min-height: 200px;
+  background: #282f35;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-btn {
+  background: inherit;
+  border:1px solid #848789;
+  color: #fff;
+  font-size: .875rem;
+  padding: 1rem 3rem;
+  transition: background .5s;
+}
+
+.shop-btn:hover {
+  background: #848789;
+  cursor: pointer;
+
+}
+
+/*registration-part*/
+
+.registration {
+  min-height: 460px;
+}
+
+.registration-logo {
+  margin-bottom: 2rem;
+  width: 90px;
+  height: 94px;
+}
+
+.registration-header {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-family: "Lato-Regular";
+  font-style: oblique;
+  color: #848789;
+  text-transform: initial;
+
+}
+
+.registration-form{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 33.33%;
+  height: 65px;
+  margin-bottom: 6rem;
+}
+
+.registration-form-email {
+  height: 100%;
+  width: 75%;
+  padding-left: 2rem;
+  color: #848789;
+  border:1px solid #848789;
+  font-family: "Lato-Italic";
+  line-height: 1.5rem;
+  font-size: 1.25rem;
+  box-sizing: border-box;
+}
+
+.registration-form-go {
+  height: 100%;
+  width: 23%;
+  font-family: "Lato-Light";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  background: #64c29e;
+  border: none;
+  box-shadow: none;
+  transition: background .5s;
+}
+
+.registration-form-go:hover {
+  background: #2fb783;
+}

@@ -1,0 +1,63 @@
+.wrapper-header {
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  background: url("../img/bike_1.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.nav-bar {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  width: 65%;
+  min-height: 95px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.nav-bar-item {
+  min-width: 3rem;
+  font-size: .75rem;
+  flex-wrap: nowrap;
+  text-transform: uppercase;
+}
+
+.nav-bar-item > a {
+  color: black;
+  opacity: .5;
+}
+
+.nav-bar-item > a:hover {
+  opacity: 1;
+}
+
+.nav-bar-item__logo {
+  width: 90px;
+  height: 94px;
+}
+
+.nav-bar-item__logo > a {
+  color: black;
+}
+
+
+.nav-bar-item__logo > a,
+.registration-logo > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}

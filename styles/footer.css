@@ -1,0 +1,111 @@
+.footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  min-height: 200px;
+  max-height: 100%;
+  background: #f7f7f7;
+
+}
+
+.footer-address,
+.footer-social,
+.footer-production {
+  min-height: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.footer-address {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 180px;
+}
+
+.footer-address-city,
+.footer-address-street,
+.footer-address-mail {
+  margin: 5px;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  color: #848789;
+
+}
+
+.footer-address-city {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.footer-address-mail > a {
+  color: #848789;
+}
+
+.footer-social {
+  justify-content: center;
+}
+
+.footer-social-icon__twitter,
+.footer-social-icon__fb,
+.footer-social-icon__g {
+  width: 35px;
+  height: 34px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.footer-social-icon__twitter > a,
+.footer-social-icon__fb > a,
+.footer-social-icon__g > a,
+.footer-production__logo > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.footer-social-icon__twitter {
+  background:url("../img/logo-twitter.jpg");
+}
+
+.footer-social-icon__fb {
+  background:url("../img/logo-fb.jpg");
+}
+
+.footer-social-icon__g {
+  margin-right: 0;
+  background:url("../img/logo-g.jpg");
+}
+
+.footer-production {
+  justify-content: center;
+  align-items: center;
+  padding-right: 180px;
+}
+
+.footer-production__description {
+  margin-right: 15px;
+  font-family: "Lato-Italic";
+  font-size: .875rem;
+  line-height: 1.125rem;
+  color: #848789;
+}
+
+.footer-production__logo {
+  width: 55px;
+  height: 36px;
+  background: url(../img/logo-YEBO.jpg);
+}
+
